@@ -6,10 +6,10 @@ section#conteudo {
 }
 
 iframe#frame-spec {
-    width: 380px;
+    width: 420px;
     height: 280px;
     border: none;
-    overflow: hidden;
+    overflow: hidden ;
 }
 
 iframe#frame-spec::-webkit-scrollbar {
