@@ -52,14 +52,20 @@
                 Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
             </p>
             <section id="conteudo">
-                <img src="_imagens/glass-esquema-marcado.jpg"/>
+                <img style="height: 270px; width: auto;" src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa"/>
+                <map name="meumapa">
+                    <area shape="rect" coords="175,206,272,255" href="google-glass.html#tela" target="janela"/>
+                    <area shape="circle" coords="151,237, 12" href="google-glass.html#camera" target="janela"/>
+                    <area shape="circle" coords="76,50,12" href="google-glass.html#gadgets" target="janela"/>
+                    <area shape="poly" coords="28,144,84,215,81,251,24,168" href="google-glass.html#sensores" target="janela">
+                </map>
                 <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
             </section>
         </article>
     </section>
 
     <footer id="rodape">
-        <p>Copyright 2013 - by Gustavo Guanabara
+        <p>Copyright 2013 - by Gustavo Guanabara 
             <a href="https://facebook.com/cursosemvideo" target="_blank"><br>Facebook</a> |
             <a href="https://x.com/cursosemvideo" target="_blank">Twitter</a></p>
     </footer>
