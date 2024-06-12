@@ -248,3 +248,19 @@ footer#rodape {
 footer#rodape p {
   text-align: center;
 }
+
+video#video-section {
+    display: block;
+    position: relative;
+    left: 0px;
+    top: -3px;
+    width: 500px;
+}
+
+video#video-aisde {
+    display: block;
+    position: relative;
+    left: 0px;
+    top: -3px;
+    width: 350px;
+}
